@@ -2,8 +2,8 @@ add_executable(intro main.cpp)
 
 target_link_libraries(
   intro
-  PRIVATE myproject::myproject_options
-          myproject::myproject_warnings)
+  PRIVATE modern_cpp_playground::modern_cpp_playground_options
+          modern_cpp_playground::modern_cpp_playground_warnings)
 
 target_link_system_libraries(
   intro
